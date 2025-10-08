@@ -1,0 +1,6 @@
+Flask
+requests
+langchain
+groq
+markupsafe
+gunicorn
