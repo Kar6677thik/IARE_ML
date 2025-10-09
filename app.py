@@ -5,7 +5,7 @@ from langchain.chains import ConversationChain
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from flask import Flask,render_template,request
 
 app = Flask(__name__)
