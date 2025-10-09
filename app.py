@@ -8,7 +8,6 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 from flask import Flask,render_template,request
 
-load_dotenv()
 app = Flask(__name__)
 
 key = os.environ.get("GROQ_API_KEY")
