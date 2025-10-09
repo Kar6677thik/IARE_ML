@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 from flask import Flask,render_template,request
 
 app = Flask(__name__)
+# load_dotenv()
 
 key = os.environ.get("GROQ_API_KEY")
 chat_groq = ChatGroq(api_key = key, model = 'llama-3.3-70b-versatile')
